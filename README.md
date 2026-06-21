@@ -1,6 +1,6 @@
 # AI Story Buddy
 
-A Flutter-based interactive storytelling and quiz application built for the Peblo Flutter Developer Assessment.
+A Flutter based interactive storytelling and quiz application built for the Peblo Flutter Developer Assessment.
 
 ## Framework Choice
 
