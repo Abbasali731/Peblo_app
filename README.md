@@ -4,15 +4,15 @@ A Flutter-based interactive storytelling and quiz application built for the Pebl
 
 ## Framework Choice
 
-Flutter was chosen for its fast development workflow, smooth animations, and cross-platform support.
+I chose Flutter because I am familiar with it and it allows building smooth cross-platform applications efficiently.
 
 ## Audio to Quiz Transition
 
-Once the narration finishes, the quiz is automatically revealed through state-driven UI updates.
+After the story narration is completed, the quiz is automatically shown to the user through state management.
 
 ## Data-Driven Quiz
 
-The quiz is generated from JSON data rather than hardcoded UI elements, allowing different questions and option counts to be supported without UI changes.
+The quiz is rendered from JSON data instead of hardcoded UI. This allows different questions and option counts to be displayed without changing the UI code.
 
 ## Caching Approach
 
@@ -20,11 +20,11 @@ The application uses the device's native TTS engine (`flutter_tts`), so audio ca
 
 ## Audio Loading and Failure Handling
 
-A loading state is shown before narration begins. If narration fails, the user is shown a friendly retry option.
+A loading state is shown before narration starts. If narration fails, the user is shown a retry option.
 
 ## Performance Profiling
 
-Tested using Flutter DevTools and Performance Overlay.
+The application was tested using Flutter DevTools and the Performance Overlay.
 
 Checked:
 
@@ -33,7 +33,8 @@ Checked:
 * Wrong-answer feedback
 * Confetti animation
 
-Frame Timing Screenshot:
+### Frame Timing Screenshot
+
 
 ## Optimization for Mid-Range Android Devices
 
@@ -48,4 +49,4 @@ AI tools were used for brainstorming, project structure, and implementation supp
 
 One suggestion that was changed was moving quiz data into a dedicated data layer instead of keeping it inside the UI.
 
-A challenge encountered during development was replaying the wrong-answer animation on every incorrect attempt, which was resolved using a state-driven animation trigger.
+A challenge encountered during development was replaying the wrong answer animation on every incorrect attempt, which was resolved using a state driven animation trigger.
