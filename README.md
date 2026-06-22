@@ -24,16 +24,10 @@ A loading state is shown before narration starts. If narration fails, the user i
 
 ## Performance Profiling
 
-The application was tested using Flutter DevTools and the Performance Overlay.
-
-Checked:
-
-* Narration transitions
-* Quiz reveal animation
-* Wrong-answer feedback
-* Confetti animation
+Performance was verified using Flutter DevTools and the Performance Overlay. Narration transitions, quiz reveal animations, wrong-answer feedback, and confetti animations were tested. Frame timings remained within the 60 FPS budget during normal usage.
 
 ### Frame Timing Screenshot
+<img width="1918" height="1018" alt="Screenshot 2026-06-22 120743" src="https://github.com/user-attachments/assets/8d9aba5c-26b8-4f8a-9492-1fbe04ec016a" />
 
 
 ## Optimization for Mid-Range Android Devices
